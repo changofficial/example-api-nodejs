@@ -1,4 +1,4 @@
-import express from 'express';
+let express = require('express');
 const router = express.Router();
 
 const users = [
@@ -28,4 +28,4 @@ router.post('/', (req, res) => {
     res.send(`user with the username ${user.name} added to the database!`);
 });
 
-export default router;
+module.exports = router;
