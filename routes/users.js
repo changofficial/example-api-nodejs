@@ -13,7 +13,7 @@ const users = [
         age: 20
     }
 ]
-//all routes in here are starting with /users
+//all routes in here are starting with /user
 router.get('/', (req, res) => {
     console.log(users);
 
